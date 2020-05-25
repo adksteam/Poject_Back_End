@@ -18,6 +18,7 @@ import io.swagger.annotations.ApiParam;
 
 @RestController
 @Api(value = "Customer Management System")
+@CrossOrigin(origins="http://localhost:3000")
 public class CustomerController {
 
 	@Autowired
